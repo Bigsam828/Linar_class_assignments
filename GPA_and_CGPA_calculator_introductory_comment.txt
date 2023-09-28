@@ -1,0 +1,16 @@
+#Created by AJS  (Ajayi samuel oluwatimileyin)
+#this is a script to calculate the GPA and CGPA for  higher instiution students of higher institutions
+#note that the calculations and the grading system used here is based on the grading system used in LASU
+#this calculator asks for the total number (n) of semesters a student intends to calculate for 
+#then it asks how many subjects a student offered for each semester
+#it then collects the course name, course unit, and (it collects either the score(eg 70), and grades it(eg A or B), then converts into course points(eg 5.0 or 4.0 ), or it collects a grade and converts it into course points. no matter the type of value given, it will always be converted into course points ) 
+#it then calculates the quality points for each course by multiplying the individual course units by the individual course points scored by the student
+#it repeats the process for the remaining courses
+#it then calculates the sum of the course units and course points for the number of courses specified 
+#it then uses the total course units (TCU) and the total quality points (TQP) for the first semester to calculate the GPA by dividing the TQP by the TCU
+#then it caculates the CGPA, which is the quotient of the sum of the TQP for number of semesters and the sum of the TCU for the same number of semesters but since the total number of semesters by the first semester is always one: the CGPA by the first semester, is always the same as the GPA for the first semester
+
+# the program simply repeats the above process for the next n-1 number of semesters but collecting the CUs and score or grades or CP for each semester
+# and calculates the GPA for each semester
+# but unlike the CGPA for the first semester, CGPA by the second semester will not be equal to the the GPA of the second semester. This is because the total quality point and total course unit used to calculate the CGPA by the second semester will be gotten by adding the TQP and TCU used to calculate the GPA for the first and second semester
+# And just 
