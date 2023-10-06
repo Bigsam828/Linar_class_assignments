@@ -78,7 +78,7 @@ address=address.format(addresses)
 
 #using the strip method in case the user enters a name with spaces before or after the name
 
-""" all the various methods used in this script
+""" all the methods used in this script
 .strip()
 .capitalize()
 .isalpha()
